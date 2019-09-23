@@ -1,0 +1,25 @@
+body {
+  background-color: #887575;
+}
+
+.start {
+  width: 100%;
+  margin-top: 50px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  
+
+}
+.hidden {
+  display: none;
+}
+.car {
+  background-image: url(img/car.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 100px;
+
+}
