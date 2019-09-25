@@ -75,7 +75,7 @@ function playGame() {
       settings.y += settings.speed;
     }
     
-
+    gameArea.style.backgroundColor = '#222';
     car.style.left = settings.x + 'px';
     car.style.top = settings.y + 'px';
 
