@@ -67,9 +67,7 @@ body {
   display: none;
 }
 .car, .enemy {
-  background-image: url(img/car.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: transparent url(img/car.png) center / cover no-repeat;
   width: 50px;
   height: 100px;
   position: absolute;
