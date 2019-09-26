@@ -61,7 +61,20 @@ body {
   font-size: 24px;
   font-weight: 700;
   color: #fff;
-
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0,0,0,.5);
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  width: 400px;
+  padding: 20px 40px;
+  z-index: 10;
+}
+.start:hover {
+  cursor: pointer;
+  background-color: red;
 }
 .hidden {
   display: none;
